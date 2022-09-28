@@ -1,0 +1,26 @@
+No método construtor da classe Pokémon deverá ser recebido como parâmetro o nome, 
+tipo e level do pokémon para atribuição aos respectivos atributos da classe e também deverá ser utilizado os métodos calculaAtributos() e CalculaBonus(). 
+Nesse mesmo método também será atribuído ao atributo "vida" de qualquer pokémon, o valor inicial de 200.
+
+O método CalculaAtributos() terá com objetivo de calcular a vida, ataque e defesa do pokémon, considerando o seu tipo:
+
+Caso o tipo seja "Fogo", o atributo vida deverá ser reduzido em 20 níveis/pontos, o ataque deverá ter o valor 60 e a defesa terá o valor 20.
+Caso o tipo seja "Água", o atributo vida deverá ser reduzido em 5 níveis/pontos, o ataque deverá ter o valor 40 e a defesa terá o valor 35.
+
+Caso o tipo seja "Planta", o atributo vida deverá ser aumentado em 20 níveis/pontos, o ataque deverá ter o valor 15 e a defesa terá o valor 60.
+Caso o tipo seja "Pedra", o atributo vida deverá ser aumentado em 25 níveis/pontos, o ataque deverá ter o valor 30 e a defesa terá o valor 60.
+
+
+No método calcularBonus() deverá ser realizado os seguintes cálculos:
+
+O atributo vida será incrementado com a metade do valor existente no atributo level.
+O atributo ataque será incrementado com 1/3 do valor existente no atributo level.
+O atributo defesa será incrementado com 1/4 do valor existente no atributo level.
+No método imprimirPokemon(), deverá ser impresso no console os valores correspondentes aos atributos (imprimir o valor acompanhado do nome do atributo): 
+nome, tipo, level, vida, ataque e defesa.
+
+Com relação aos métodos meuPokemon() e outroPokemon(), serão recebidos como parâmetro,
+ o nome e a vida dos pokemons envolvidos na batalha para que seja possível atribuir os valores aos atributos existentes na classe Batalha.
+ O método startBattle() deverá imprimir no console um primeiro aviso/mensagem que a batalha irá começar. 
+Dentro do método será avaliado se o atributo "meuPokemonVida" é maior do que o atributo "outroPokemonVida". 
+Caso for maior, o seu pokémon escolhido foi o vitorioso, caso contrário, o pokémon vitorioso será o adversário (outro pokémon).
